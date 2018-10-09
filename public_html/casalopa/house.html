@@ -1,0 +1,148 @@
+<main class="main" ng-controller="houseCtrl">
+    <section>
+        <div ng-include="'casalopa/naviToggle.html'"></div>
+        <nav class="naviUpper">
+            <div class="row" id="naviSmall">        
+                <div class="col-6">
+                    <div class="hamburger"></div>                    
+                </div>   
+                <div class="col-6">
+                    <div class="imglang_en"></div>
+                    <div class="imglang_de"></div>                    
+                </div>
+            </div>
+            <div class="row" id="naviInline">
+                <div class="col-3 imglang">
+                    <div class="imglang_en"></div>
+                    <div class="imglang_de"></div>                 
+                </div>
+                <div class="col-9" id="naviTop">               
+                    <ul>
+                        <li class="navTopLi"><a class="aNavTop" href="#/">Home</a></li>
+                        <li class="navTopLi"><a href="#/house" class="aHouse aNavTop">The&nbsp;House</a></li>
+                        <li class="navTopLi"><a href="#/booking" class="aBooking aNavTop">Booking</a></li>
+                        <li class="navTopLi"><a href="#/activities" class="aActivities aNavTop">Activities</a></li>
+                        <li class="navTopLi"><a href="#/contact" class="aContact aNavTop">Contact</a></li>
+                    </ul> 
+                </div>                
+            </div>
+        </nav>   
+    </section>  
+    <section id="sectionHouse">
+        <div class="row">
+            <h1 class="headlineSite">The House</h1>
+            <hr>
+            <div class="row naviSite">
+                <div class="col-4"><div class="btn buttonSublink" id="btnHouse">House</div></div>                
+                <div class="col-4"><div class="btn buttonSublink" id="btnRooms">Rooms</div></div>
+                <div class="col-4"><div class="btn buttonSublink" id="btnTerrace">Pool & <br>Terrace</div></div>                    
+            </div>
+        </div>
+
+        <div class="row picsHouseUpper col-12 col-md-4 float-right">            
+            <div class="columns col-12">
+                <div id="info0">
+                    <h3>Holiday House, Pool, Andalucia</h3>
+                    Holiday villa with terrace and pool in Andalucia, Spain, in the mountains near Comares, Costa del Sol.
+                </div>
+            </div>
+            <div class="col-12">   
+                <div class="columns">
+                    <img src="assets/images/top1k.jpg" alt="Top House"/>
+                </div>
+                <p class="picSubline">Casa Lopa, your holiday home in Andalucia</p>                
+            </div>
+
+            <div class="col-12"> 
+                <div class="columns">
+                    <img src="assets/images/front2k.jpg" alt="Front House"/>
+                </div>
+                <p class="picSubline">Front of the house</p>                
+            </div>            
+        </div><!--end row-->
+        <div class="row col-12 col-md-8" id="infos">    
+            <p id="info1"> <br>Fantastic holiday villa in the mountains of Andalucia. You reach us 
+                from Malaga Airport in 45 minutes by car.<br><br>
+
+                The Villa with pool is located on the hillside of the mountain MAZMULLAR, 
+                ca. 10 minutes from the idyllic small mountain town COMARES and 20 minutes 
+                away from Colmenar.<br> <a href="">(Please click here for the map of the Axarquia region)</a> 
+            </p><br>
+            <div id="infoSpecial">
+                <p>&nbsp;Long-Term Rentals&nbsp;</p>
+                <p>
+                    <b>You look for a long-term rental?</b>
+                    <br>                    
+                    Send us an
+                    <a href="#/contact"><b>email</b></a> 
+                    and you receive your <b>special offer</b> by return!
+                    <br>&nbsp;                
+                </p>
+            </div>
+
+            <center id="spacer2"><img src="assets/images/oliven_spacer.gif" alt="Casa Lopa"></center>
+            <!-- ################################################################################## -->
+
+            <h2 id="headlineSub1">Relaxing holiday</h2>
+            <p id="info2">
+                The modern and fully equipped Villa (3 bedrooms, 2 bathrooms, kitchen, living room, terrace,
+                private swimming pool ) was newly built in 2005 and invites you for a relaxing holiday in the
+                unique landscape of traditional Andalucia.
+            </p>
+
+            <!-- ################################################################################## -->
+            <center><img src="assets/images/oliven_spacer.gif" alt="Casa Lopa"></center>
+            <!-- ################################################################################## -->
+
+            <h2 id="headlineSub2">Beaches of the Costa del Sol</h2>
+            <p id="info3">
+                Enjoy your holidays  apart from the mass tourism in a distinguished setting. <br><br>                
+                If you want to spend a day at the Costa del Sol...  No problem. ...you reach the popular beach
+                ressorts of Torremolinos or Torre del Mar within 45 minutes.
+            </p>
+
+
+            <h2 id="headlineSub3">Casa Lopa...   Ideal for 2 to 6 people</h2>
+        </div>
+        <hr style="border:1px solid darkslategray">
+
+        <div class="row picsHouseLower col-12">
+            <div class="col-12 col-sm-4">  
+                <div class="columns">
+                    <img src="assets/images/casalopak.jpg" alt="Doorsign"/>
+                </div>
+                <p class="picSubline">Welcome to Casa Lopa!</p>                            
+            </div>
+
+            <div class="col-12 col-sm-4">
+                <div class="columns">
+                    <img src="assets/images/pool12k.jpg" alt="Pool"/>
+                </div>                            
+                <p class="picSubline">Relax on the terrace</p>
+            </div>
+            <div class="col-12 col-sm-4"> 
+                <div class="columns">
+                    <img src="assets/images/terrace3k.jpg" alt="Terrace"/>
+                </div>                                            
+                <p class="picSubline">Enjoy stunning views</p>
+            </div>            
+        </div>        
+    </section>
+    <footer class="footer">    
+        <div class="row">
+            <div class="col-5"><a href="#/house" class="btnhouse w-button aHouse">THE HOUSE</a></div>
+            <div class="col-2"></div>
+            <div class="col-5"><a href="#/activities" class="btnactivity w-button aActivities"> ACTIVITIES </a></div>
+        </div>
+        <div class="row" id="rainbowBulletFooter">
+            <div class="col-4"></div>        
+            <div class="col-4 d-flex align-items-center  h-100"><img src="assets/images/rainbow_ani.gif" class="rainbowBullet mx-auto"/></div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-5"><a href="#/contact" class="btncontact w-button aContact">CONTACT</a></div>
+            <div class="col-2"></div>
+            <div class="col-5"><a href="#/booking" class="btnbooking w-button aBooking">BOOKING</a></div>
+        </div>
+    </footer>
+</main>
